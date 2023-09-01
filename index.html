@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Título e ícone da página-->
+    <title>Davi Brandão :: Portfólio</title>
+    <link rel="shortcut icon" href="./images/logo-site.png" type="image/x-icon">
+    <!--Conexão com o CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Ícones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Fontes do google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- BARRA DE NAVEGACAO FIXA-->
+    <header class="sticky">
+        <div id="header">
+            <a href="#" class="logo-header">
+                <img src="images/logo.png" alt="Logo Davi Brandao" width="80">
+            </a>
+            <div class="fa-solid fa-bars" id="navbar-icon"></div>
+            <ul class="navbar-header">
+                <li> <a href="#home">Home</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#about">Sobre mim</a></li>
+                <li> <a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contact">Fale comigo</a></li>
+            </ul>
+            <a href="#" class="btn-header">Curriculo</a>
+        </div>
+    </header>
+    <!-- ICONES REDES SOCIAIS-->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Davi Brandão</h1>
+            <h5>Estudante de <span>desenvolvimento de sistemas</span></h5>
+            <p>Me chamo Davi Brandão de Jesus, natural de <span>Salvador-BA</span>, e sou estudante do curso técnico em
+                desenvolvimento de sistemas pelo <span>SENAI Dendezeiros</span>.</p>
+            <div class="home-social-media">
+                <a href="https://www.linkedin.com/in/davi-brand%C3%A3o-de-jesus-272879249/" target="_blank"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/brandaodavi" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+                <a href="https://www.instagram.com/davi.dbj/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#about" class="btn">Sobre mim</a>
+        </div>
+        <div class="home-image">
+            <img src="./images/Background.png" alt="Selfie de Davi Brandao" width="500px">
+        </div>
+    </section>
+    <!--Serviços (HTML, CSS, JS, etc)-->
+    <section class="services" id="services">
+        <div class="services-itens">
+            <div class="service-item">
+                <div class="service-item-image" id="site-service">
+                    <img src="images/html_css.png"
+                        alt="Logo da linguagem de marcação HTML5 junto à logo da linguagem de estilização CSS3">
+                </div>
+                <h3>HTML5 + CSS3</h3>
+                <p>Criação de sites com a união da linguagem de marcação HTML5 e da linguagem de estilização CSS3</p>
+            </div>
+            <div class="service-item">
+                <div class="service-item-image">
+                    <img src="images/figma.png" alt="Logo do FIGMA, site de prototipagem">
+                </div>
+                <h3>Prototipagem</h3>
+                <p>Construção de protótipos para concretizar a ideia do site e disponibilizar uma pré-visualização do
+                    mesmo</p>
+            </div>
+            <div class="service-item">
+                <div class="service-item-image">
+                    <img src="./images/js.png" alt="Logo linguagem C">
+                </div>
+                <h3>JavaScript</h3>
+                <p>Implementação de scripts em sites. Iniciando os estudos em React para expandir meus conhecimentos</p>
+            </div>
+        </div>
+    </section>
+    <!--Sobre mim-->
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="./images/about.jpg" alt="Sobre mim">
+        </div>
+        <div class="about-text">
+            <h3>Sobre mim</h3>
+            <p>Sempre em busca de conhecimento, caminho para me tornar um profissional de excelência para suprir as
+                necessidades da indústria, podendo contribuir com a minha força de vontade e evoluir cada vez mais como
+                ser humano.</p>
+            <a href="#contact" class="btn">Fale comigo</a>
+        </div>
+    </section>
+    <!-- Portfolio projetos -->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-head">
+            <h3>Meus trabalhos</h3>
+            <p>Estes são os meus projetos já realizados e em andamento</p>
+        </div>
+        <div class="portfolio-content">
+            <div class="col">
+                <img src="./images/portfolio/camiseteria.jpg" alt="Imagem camiseteria">
+                <div class="portfolio-content-text">
+                    <h3>Camiseteria</h3>
+                    <h5>Dubaba Co.</h5>
+                    <div class="tech-img">
+                        <img src="./images/figma.png" alt="Logo figma">
+                    </div>
+                    <a href="https://www.figma.com/proto/yj6Rl5UDTMZU6O7VSr86vf/PROJETO-CAMISETERIA?node-id=117-5&scaling=min-zoom&page-id=117%3A5&starting-point-node-id=330%3A717&show-proto-sidebar=1" class="portfolio-btn" target="_blank">VER</a>
+                </div>
+            </div>
+            <div class="col">
+                <img src="./images/portfolio/hamburguer.jpg" alt="Imagem hamburgueria">
+                <div class="portfolio-content-text">
+                    <h3>Hamburgueria</h3>
+                    <h5>Davi Burguer</h5>
+                    <div class="tech-img">
+                        <img src="./images/figma.png" alt="Logo figma">
+                    </div>
+                    <a href="https://www.figma.com/proto/qFfOdyHVLZfaf02FpgfqKa/projeto-hamburgueria-davibrandaodejesus-82675?node-id=0-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=3%3A774" class="portfolio-btn" target="_blank">VER</a>
+                </div>
+            </div>
+            <div class="col">
+                <img src="./images/portfolio/restaurante.jpg" alt="Imagem restaurante">
+                <div class="portfolio-content-text">
+                    <h3>Restaurante</h3>
+                    <h5>Edger food</h5>
+                    <div class="tech-img">
+                        <img src="./images/C.png" alt="Logo linguagem C">
+                    </div>
+                    <a href="./downloads/EdgerFood.exe" download="Edger Food.exe" class="portfolio-btn">VER</a>
+                </div>
+            </div>
+            <div class="col">
+                <img src="./images/portfolio/starbucks.jpg" alt="Imagem starbucks">
+                <div class="portfolio-content-text">
+                    <h3>Cafeteria</h3>
+                    <h5>Starbucks</h5>
+                    <div class="tech-img">
+                        <img src="./images/html5.png" alt="Logo HTML5">
+                        <img src="./images/css3.png" alt="Logo CSS3">
+                        <img src="./images/js.png" alt="Logo JavaScript">
+                    </div>
+                    <a href="https://primeirositedavib.000webhostapp.com/StarBucks/index.html" class="portfolio-btn" target="_blank">VER</a>
+                </div>
+            </div>
+            <div class="col">
+                <img src="./images/portfolio/doceria.jpg" alt="Imagem doceria">
+                <div class="portfolio-content-text">
+                    <h3>Contagem Regressiva</h3>
+                    <h5>Quanto tempo falta para o ano novo?</h5>
+                    <div class="tech-img">
+                        <img src="./images/html5.png" alt="Logo HTML5">
+                        <img src="./images/css3.png" alt="Logo CSS3">
+                        <img src="./images/js.png" alt="Logo JavaScript">
+                    </div>
+                    <a href="https://contagemregressivadavibrandao.netlify.app/" class="portfolio-btn" target="_blank">VER</a>
+                </div>
+            </div>
+            <div class="col">
+                <img src="./images/portfolio/notas.jpg" alt="Imagem notas">
+                <div class="portfolio-content-text">
+                    <h3>Sistema de notas</h3>
+                    <h5>Formulário e situação de alunos</h5>
+                    <div class="tech-img">
+                        <img src="./images/html5.png" alt="Logo HTML5">
+                        <img src="./images/css3.png" alt="Logo CSS3">
+                        <img src="./images/js.png" alt="Logo JavaScript">
+                    </div>
+                    <a href="https://sistemadenotasdavibrandao.netlify.app/" class="portfolio-btn" target="_blank">VER</a>
+                </div>
+            </div>
+            <div class="col">
+                <img src="./images/portfolio/miniloja.jpg" alt="Imagem notas">
+                <div class="portfolio-content-text">
+                    <h3>Mini Loja</h3>
+                    <h5>Loja com sistema de carrinho</h5>
+                    <div class="tech-img">
+                        <img src="./images/html5.png" alt="Logo HTML5">
+                        <img src="./images/css3.png" alt="Logo CSS3">
+                        <img src="./images/php.png" alt="Logo PHP">
+                    </div>
+                    <a href="https://primeirositedavib.000webhostapp.com/Loja/index.php/" class="portfolio-btn" target="_blank">VER</a>
+                </div>
+            </div>
+            <div class="col">
+                <img src="./images/portfolio/calculadora.jpg" alt="Imagem notas">
+                <div class="portfolio-content-text">
+                    <h3>Calculadora</h3>
+                    <h5>Realização de operações básicas</h5>
+                    <div class="tech-img">
+                        <img src="./images/html5.png" alt="Logo HTML5">
+                        <img src="./images/css3.png" alt="Logo CSS3">
+                        <img src="./images/php.png" alt="Logo PHP">
+                    </div>
+                    <a href="https://primeirositedavib.000webhostapp.com/Calculadora/index.php" class="portfolio-btn" target="_blank">VER</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--CONTATO-->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-text">
+                <h3>Fale comigo</h3>
+                <p>Envie a sua mensagem para entrar em contato comigo</p>
+            </div>
+            <div class="form">
+                <form action="">
+                    <a href="mailto:davi3388@outlook.com?subject=&body=">ENVIAR MENSAGEM</a>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER (RODAPÉ)-->
+    <footer>
+        <p>Todos os direitos reservados &copy; 2023</p>
+    </footer>
+    <!-- JS SCROLLREVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Meu javascript -->
+    <script type="text/javascript" src="./js/script.js"></script>
+</body>
+
+</html>
